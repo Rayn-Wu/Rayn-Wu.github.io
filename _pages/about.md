@@ -18,7 +18,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 
-Hi there, I am Yuan Wu (吴渊). I am currently a Ph.D. student at <a href="http://www.patternrecognition.asia/" style="text-decoration: none;">PCALab</a>, School of Computer Science and Engineering, Nanjing University of Science and Technology, supervised by <a href="https://scholar.google.com.hk/citations?user=6CIDtZQAAAAJ&hl=en" style="text-decoration: none;">Prof. Jian Yang</a> and co-supervised by <a href="http://yanzq95.github.io/" style="text-decoration: none;">Dr. Zhiqiang Yan</a>. My research interests lie in 3D computer vision, with a particular focus on 3D perception and scene understanding. If you're interested in my work, feel free to reach out with any questions or suggestions! 😊
+Hi there! I am Yuan Wu (吴渊), currently a Ph.D. student at <a href="http://www.patternrecognition.asia/" style="text-decoration: none;">PCALab</a>, School of Computer Science and Engineering, Nanjing University of Science and Technology. I am supervised by <a href="https://scholar.google.com.hk/citations?user=6CIDtZQAAAAJ&hl=en" style="text-decoration: none;">Prof. Jian Yang</a> and co-supervised by <a href="http://yanzq95.github.io/" style="text-decoration: none;">Dr. Zhiqiang Yan</a>. My research interests lie in 3D computer vision, particularly 3D perception and scene understanding. If you are interested in my work, please feel free to reach out with any questions or suggestions! 😊
 
 
 
