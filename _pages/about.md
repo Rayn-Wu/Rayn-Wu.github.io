@@ -24,6 +24,27 @@ Hi there, I am Yuan Wu (吴渊). I am currently a second-year Ph.D. student at <
 
 # 📝 Publications 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2026</div><img src='projects/Arxiv26_HiPR.png' alt="sym" style="width: auto; height: auto;"></div></div>
+<div class='paper-box-text' markdown="1">
+
+Height-Guided Projection Reparameterization for Camera-LiDAR Occupancy
+
+<strong>Yuan Wu</strong>, 
+<a href="http://yanzq95.github.io/" style="text-decoration: none;">Zhiqiang Yan</a>  &#9993;, 
+<a href="https://scholar.google.com.hk/citations?user=svW3qjkAAAAJ&hl=zh-CN" style="text-decoration: none;">Jiawei Lian</a>, 
+<a href="https://wzx0826.github.io/" style="text-decoration: none;">Zhengxue Wang</a>, 
+<a href="https://scholar.google.com/citations?user=6CIDtZQAAAAJ&hl=zh-CN" style="text-decoration: none;">Jian Yang</a> &#9993;
+
+{% include paper_links.html
+  arxiv="https://arxiv.org/pdf/2605.05072"
+  github="yanzq95/HiPR"
+%}
+
+- We propose HiPR, a camera-LiDAR occupancy framework that adaptively reparameterizes the projection space using a LiDAR-derived BEV height prior, achieving state-of-the-art performance with real-time inference.
+</div>
+</div>
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='projects/AAAI_STDNet.png' alt="sym" style="width: auto; height: auto;"></div></div>
 <div class='paper-box-text' markdown="1">
 
