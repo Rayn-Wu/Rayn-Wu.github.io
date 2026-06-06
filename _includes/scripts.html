@@ -1,4 +1,39 @@
 <script src="assets/js/main.min.js"></script>
+<script>
+  (function () {
+    function formatStars(count) {
+      if (count >= 1000) {
+        return (count / 1000).toFixed(count >= 10000 ? 0 : 1).replace(/\.0$/, "") + "k";
+      }
+      return count.toString();
+    }
+
+    document.querySelectorAll("[data-github-stars]").forEach(function (link) {
+      var repo = link.getAttribute("data-github-stars");
+      var label = link.querySelector(".paper-link__star-count");
+
+      if (!repo || !label) {
+        return;
+      }
+
+      fetch("https://api.github.com/repos/" + repo)
+        .then(function (response) {
+          if (!response.ok) {
+            throw new Error("GitHub API request failed");
+          }
+          return response.json();
+        })
+        .then(function (data) {
+          if (typeof data.stargazers_count === "number") {
+            label.textContent = formatStars(data.stargazers_count) + " Stars";
+          }
+        })
+        .catch(function () {
+          label.textContent = "Stars";
+        });
+    });
+  })();
+</script>
 
 {% include analytics.html %}
 {% include fetch_google_scholar_stats.html %}
