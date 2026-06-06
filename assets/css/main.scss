@@ -231,6 +231,42 @@ h1:before, .anchor:before {
 }
 
 .paper-link--star i {
-  color: #d97706;
+  color: #ffffff;
+}
+
+.paper-link--arxiv {
+  color: #202938 !important;
+  background: #ffffff;
+  border-color: #d8dee8;
+
+  &:hover {
+    color: #111827 !important;
+    background: #ffffff;
+    border-color: #b9c4d4;
+  }
+}
+
+.paper-link--github {
+  color: #202938 !important;
+  background: #ffffff;
+  border-color: #d8dee8;
+
+  &:hover {
+    color: #111827 !important;
+    background: #ffffff;
+    border-color: #b9c4d4;
+  }
+}
+
+.paper-link--star {
+  color: #ffffff !important;
+  background: #d97706;
+  border-color: #d97706;
+
+  &:hover {
+    color: #ffffff !important;
+    background: #b45309;
+    border-color: #b45309;
+  }
 }
 
