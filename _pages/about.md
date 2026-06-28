@@ -42,7 +42,29 @@ Hi there! I am Yuan Wu (吴渊), a Ph.D. student at <a href="http://www.patternr
   github="yanzq95/HiPR"
 %}
 
-<p class="paper-summary">We propose HiPR, a camera-LiDAR occupancy framework that adaptively reparameterizes the projection space using a LiDAR-derived BEV height prior, achieving state-of-the-art performance with real-time inference.</p>
+<p class="paper-summary">Most previous methods rely on a fixed projection space, where 3D reference points are uniformly sampled along pillars. However, such sampling struggles to capture the sparsity and height variations of real-world scenes, leading to ambiguous correspondences and unreliable feature aggregation. To address these challenges, we propose HiPR, a camera-LiDAR occupancy framework with Height-Guided Projection Reparameterization.</p>
+</div>
+</div>
+
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge badge--aaai">CVPR 2026</div><img src='projects/CVPR_VLMDC.png' alt="sym"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<h3 class="paper-title">Zero-Shot Depth Completion with Vision Language Model </h3>
+
+<p class="paper-authors">
+<a href="http://yanzq95.github.io/" style="text-decoration: none;">Zhiqiang Yan</a>,
+<strong>Yuan Wu</strong>,
+<a href="https://www.comp.nus.edu.sg/~leegh/" style="text-decoration: none;">Gim Hee Lee</a>
+</p>
+
+{% include paper_links.html
+  arxiv="https://openaccess.thecvf.com/content/CVPR2026/papers/Yan_Zero-Shot_Depth_Completion_with_Vision-Language_Model_CVPR_2026_paper.pdf"
+%}
+
+<p class="paper-summary">This paper introduces the first VLM-based depth completion framework. We propose a sparse depth injection mechanism that extends VLM's capability toward 3D perception through three key aspects: visual tokenization, textual prompt, and textual supervision.</p>
+
 </div>
 </div>
 

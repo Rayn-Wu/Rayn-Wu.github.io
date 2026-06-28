@@ -168,20 +168,12 @@ h1:before, .anchor:before {
     box-shadow: 0 6px 14px rgba(23, 38, 64, 0.18);
 }
 
-.badge--arxiv {
-    background-color: #8b1e2d;
-}
-
-.badge--aaai {
-    background-color: #7c3aed;
-}
-
-.badge--neurips {
-    background-color: #0f766e;
-}
-
-.badge--icra {
-    background-color: #2563eb;
+.badge--arxiv,
+.badge--aaai,
+.badge--neurips,
+.badge--icra,
+.badge--cvpr {
+    background-color: #00369f;
 }
 
 .paper-links {
@@ -222,8 +214,8 @@ h1:before, .anchor:before {
   }
 }
 
-.paper-link--arxiv i {
-  color: #b31b1b;
+.paper-link--paper i {
+  color: #2563eb;
 }
 
 .paper-link--github i {
@@ -234,7 +226,7 @@ h1:before, .anchor:before {
   color: #ffffff;
 }
 
-.paper-link--arxiv {
+.paper-link--paper {
   color: #202938 !important;
   background: #ffffff;
   border-color: #d8dee8;
