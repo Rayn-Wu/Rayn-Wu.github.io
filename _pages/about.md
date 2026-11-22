@@ -21,7 +21,7 @@ Hi there! I am Yuan Wu (吴渊), a Ph.D. student at <a href="http://www.patternr
 
 
 
-If you’re interested in my research, free to reach out with any questions or suggestions! 😊
+If you’re interested in my research, feel free to reach out with any questions or suggestions! 😊
 
 
 
@@ -48,7 +48,7 @@ If you’re interested in my research, free to reach out with any questions or s
 
 <div class="publication-filters" role="group" aria-label="Filter publications" hidden>
   <button type="button" data-filter="all" aria-pressed="true">All</button>
-  <button type="button" data-filter="depth" aria-pressed="false">2D Depth Prediction</button>
+  <button type="button" data-filter="depth" aria-pressed="false">2D Depth Perception</button>
   <button type="button" data-filter="occupancy" aria-pressed="false">3D Occupancy Prediction</button>
   <button type="button" data-filter="world-model" aria-pressed="false">World Model</button>
 </div>
@@ -219,7 +219,7 @@ Yigong Zhang &#9993;,
   arxiv="https://arxiv.org/pdf/2505.20641"
   github="yanzq95/LIAR"
 %}
-<p class="paper-summary">Existing vision-based methods perform well on daytime benchmarks but struggle in nighttime scenarios due to limited visibility and challenging lighting conditions. We introduce LIAR, a novel framework that learns illumination-affined representations for nighttime occupacy prediction.</p>
+<p class="paper-summary">Existing vision-based methods perform well on daytime benchmarks but struggle in nighttime scenarios due to limited visibility and challenging lighting conditions. We introduce LIAR, a novel framework that learns illumination-affined representations for nighttime occupancy prediction.</p>
 </div>
 </div>
 
@@ -242,7 +242,7 @@ Yigong Zhang &#9993;,
   github="yanzq95/DHD"
   star=true
 %}
-<p class="paper-summary">For the first time, we introduce the explicit height prior into the vision-based 3D occupancy predition task. Owing to the novel deep height decoupling and sampling stratagy, our model achieves state-of-the-art performance even with minimal input cost.</p>
+<p class="paper-summary">For the first time, we introduce the explicit height prior into the vision-based 3D occupancy prediction task. Owing to the novel deep height decoupling and sampling strategy, our model achieves state-of-the-art performance even with minimal input cost.</p>
 </div>
 </div>
 
@@ -255,7 +255,7 @@ Yigong Zhang &#9993;,
 - *2024.06*: Outstanding Graduates of NJUST
 
   
-# 📖 Educations
+# 📖 Education
 - *2024.09 - present*: Ph.D. student, School of Computer Science and Engineering, NJUST
 - *2020.09 - 2024.06*: B.Eng., School of Intelligent Manufacturing, NJUST
 
