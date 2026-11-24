@@ -75,7 +75,7 @@ If you’re interested in my research, feel free to reach out with any questions
 <a href="https://sites.google.com/view/junlineu/">Jun Li</a>,
 <a href="https://scholar.google.com/citations?user=6CIDtZQAAAAJ&amp;hl=zh-CN">Jian Yang</a> &#9993;
 </p>
-{% include paper_links.html arxiv="#sap" %}
+{% include paper_links.html arxiv="https://arxiv.org/pdf/2611.28629" %}
 
 <p class="paper-summary">SAP introduces scene-adaptive projection for vision-based 3D occupancy prediction. It predicts metric depth maps and back-projects them into 3D to obtain geometric priors. These priors guide reference sampling to supported height regions, with full-range sampling retained elsewhere.</p>
 
